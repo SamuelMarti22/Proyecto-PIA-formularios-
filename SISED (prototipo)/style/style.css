@@ -231,8 +231,10 @@ nav {
 #registrarse{
     background-image: url(../assests/fondo.avif);
     background-size: cover;
+    color: white;
 }
 #inicio_sesion{
     background-image: url(../assests/fondo.avif);
     background-size: cover;
+    color: white;
 }
