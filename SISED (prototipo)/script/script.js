@@ -1,2 +1,0 @@
-print("holab")
-print("samu")
