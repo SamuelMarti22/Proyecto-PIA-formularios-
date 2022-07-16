@@ -228,3 +228,11 @@ nav {
     padding: auto;
     text-decoration: none;
 }
+#registrarse{
+    background-image: url(../assests/fondo.avif);
+    background-size: cover;
+}
+#inicio_sesion{
+    background-image: url(../assests/fondo.avif);
+    background-size: cover;
+}
