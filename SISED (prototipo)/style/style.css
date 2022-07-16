@@ -153,6 +153,8 @@ main {
 .formulario input {
     /*espacio entre los elementos dentro del formulario*/
     margin-bottom: 40px;
+    background-color: rgba(0, 255, 98, 0.3);
+    border-radius: 20%;
 }
 
 .inicio_sesion button {
