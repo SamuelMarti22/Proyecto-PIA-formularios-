@@ -138,7 +138,7 @@ main {
     width: 200px;
     border: 3px solid rgb(119, 190, 77);
     /*todo lo que tenga que ver con letras*/
-    color: #ffffff;
+    color: #42c04d;
     font-size: 30px;
 }
 
@@ -181,14 +181,50 @@ main {
     /*todo lo que tenga que ver con letras*/
 }
 
-#registrarse {
-    background-image: url(../assests/fondo.avif);
-    background-repeat: no-repeat;
-    background-size: cover;
+nav {
+    max-width: 900px;
+    margin: auto;
+    background-color: #333;
+    font-size: 20px;
+    margin-top: 50px;
 }
 
-#inicio_sesion {
-    background-image: url(../assests/fondo.avif);
-    background-repeat: no-repeat;
-    background-size: cover;
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal>li>a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-horizontal>li:hover {
+    background-color: #42c04d;
+}
+
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(117, 253, 170, 0.3);
+}
+
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+
+.menu-vertical li:hover {
+    background-color: #66dc70;
+}
+
+.menu-vertical li a {
+    display: block;
+    color: green;
+    padding: auto;
+    text-decoration: none;
 }
