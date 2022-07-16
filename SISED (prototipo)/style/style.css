@@ -158,3 +158,13 @@ main{
     height: 500px;
     /*todo lo que tenga que ver con letras*/
 }
+#registrarse{
+    background-image: url(../assests/fondo.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#inicio_sesion{
+    background-image: url(../assests/fondo.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
