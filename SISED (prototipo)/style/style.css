@@ -184,7 +184,7 @@ main {
 nav {
     max-width: 900px;
     margin: auto;
-    background-color: #333;
+    background-color: rgb(255, 255, 255);
     font-size: 20px;
     margin-top: 50px;
 }
@@ -198,12 +198,12 @@ nav {
 .menu-horizontal>li>a {
     display: block;
     padding: 15px 20px;
-    color: white;
+    color: rgb(76, 129, 5);
     text-decoration: none;
 }
 
 .menu-horizontal>li:hover {
-    background-color: #42c04d;
+    background-color: #00ff15;
 }
 
 .menu-vertical {
@@ -211,7 +211,7 @@ nav {
     display: none;
     list-style: none;
     width: 200px;
-    background-color: rgba(117, 253, 170, 0.3);
+    background-color: rgba(0, 255, 98, 0.3);
 }
 
 .menu-horizontal li:hover .menu-vertical {
