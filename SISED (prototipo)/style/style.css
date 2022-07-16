@@ -140,6 +140,7 @@ main {
     /*todo lo que tenga que ver con letras*/
     color: #42c04d;
     font-size: 30px;
+    color: white;
 }
 
 .unoporlinea {
@@ -231,10 +232,8 @@ nav {
 #registrarse{
     background-image: url(../assests/fondo.avif);
     background-size: cover;
-    color: white;
 }
 #inicio_sesion{
     background-image: url(../assests/fondo.avif);
     background-size: cover;
-    color: white;
 }
