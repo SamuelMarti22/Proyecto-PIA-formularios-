@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+body{
+    background-color: #ffffff;
+    font-family: 'Quicksand', sans-serif;;
+}
+header{
+    border: black;
+}
+
+
+.titulo_y_logo{
+    height: 400px;
+    width: 100%;
+    background-image: url(../assests/fondo.avif);
+    background-repeat:no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    justify-content: space-around;
+    display: inline-flex;
+}
+
+.logo{
+    width:220px;
+    height: 220px;
+    display: flex;
+    margin-top: 60px;
+    border-radius: 50px;
+}
+.logo img{
+    border-radius: 50%;
+}
+.titulo{
+    width:700px;
+    height: 220px;
+    font-size: 30px;
+    color: white;
+    margin-top: 60px;
+}
+main{
+    width: 70%;
+    height: 100vh;
+    margin-left: 280px;
+    margin-top: 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.subtitulo_principal{
+    font-size: 25px;
+    display: flex;
+}
+.subtitulos_varios{
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    margin: 0px 10px;
+}
+.informacion_principal{
+    display: block;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.menusito{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.menusito a{
+    text-decoration: none;
+    color: white ;
+    display: block;
+    padding: 15px 50px;
+    background-color: #42c04d;
+    border-bottom: #A0D995;
+}
+.menusito .ultimo{
+   
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.menusito .primero{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.primero a:hover{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #66dc70;
+}
+.ultimo a:hover{
+    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #66dc70;
+
+}
+.mitad a:hover{
+    background-color: #66dc70;
+}
+
+.inicio_sesion {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    /*todo lo que tenga que ver con letras*/
+}
+.inicio_sesion form{
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    /*lo que tiene que ver copn la cajita del formulario*/
+    width: 200px;
+    border: 3px solid rgb(119, 190, 77);
+    /*todo lo que tenga que ver con letras*/
+    color: #42c04d;
+    font-size: 30px;
+}
+
+.unoporlinea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+.formulario input{
+    /*espacio entre los elementos dentro del formulario*/
+    margin-bottom: 40px;
+}
+.inicio_sesion button{
+    background-color: #66dc70;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.registrarse form{
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.registrarse button{
+    background-color: #66dc70;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.registrarse {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    /*todo lo que tenga que ver con letras*/
+}
