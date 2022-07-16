@@ -196,6 +196,7 @@ nav {
     list-style: none;
     display: flex;
     justify-content: space-around;
+    background-color: #A0D995;
 }
 
 .menu-horizontal>li>a {
