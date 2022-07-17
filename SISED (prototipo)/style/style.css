@@ -135,7 +135,7 @@ main {
     display: flex;
     flex-direction: column;
     /*lo que tiene que ver copn la cajita del formulario*/
-    width: 200px;
+    width: auto;
     border: 3px solid rgb(119, 190, 77);
     /*todo lo que tenga que ver con letras*/
     color: #42c04d;
