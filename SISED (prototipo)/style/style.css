@@ -316,6 +316,7 @@ nav {
     display: flex;
     justify-content: space-around;
     background-color: #A0D995;
+    border-radius: 50px;
 }
 
 .menu-horizontal>li>a {
