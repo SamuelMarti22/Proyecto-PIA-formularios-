@@ -8,6 +8,7 @@ body {
 
 header {
     border: black;
+    color: white;
 }
 
 
@@ -153,8 +154,8 @@ main {
 .formulario input {
     /*espacio entre los elementos dentro del formulario*/
     margin-bottom: 40px;
-    background-color: rgba(0, 255, 98, 0.3);
-    border-radius: 20px;
+    background-color: #57d061;
+    border-radius: 20px;    
 }
 
 .inicio_sesion button {
@@ -163,7 +164,7 @@ main {
     margin-left: 30px;
 }
 
-.formulario{
+.formulario {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 45px;
@@ -219,7 +220,7 @@ main {
     font-weight: 100;
 }
 
-.formulario__checkbox{
+.formulario__checkbox {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -230,7 +231,9 @@ main {
     text-align: center;
 }
 
-.formulario__grupo-terminos, .formulario__mensaje, .formulario__grupo-btn-enviar {
+.formulario__grupo-terminos,
+.formulario__mensaje,
+.formulario__grupo-btn-enviar {
     grid-column: span 2;
 }
 
@@ -276,28 +279,28 @@ main {
     display: none;
 }
 
-.formulario__mensaje-exito-activo { 
+.formulario__mensaje-exito-activo {
     display: block;
 }
 
 
 /* --------------------------------------------- VALIDACIÓN ----------------------------------------- */
-.formulario__grupo-correcto .formulario__validacion-estado{
+.formulario__grupo-correcto .formulario__validacion-estado {
     color: #29ee0f;
     opacity: 1;
 }
 
-.formulario__grupo-incorrecto .formulario__label{
+.formulario__grupo-incorrecto .formulario__label {
     color: #ee0f0f;
 }
 
 
-.formulario__grupo-incorrecto .formulario__validacion-estado{
+.formulario__grupo-incorrecto .formulario__validacion-estado {
     color: #ee0f0f;
     opacity: 1;
 }
 
-.formulario__grupo-incorrecto .formulario__input{
+.formulario__grupo-incorrecto .formulario__input {
     border: 1px solid #ee0f0f;
 
 }
@@ -306,7 +309,7 @@ main {
 nav {
     max-width: 900px;
     margin: auto;
-    background-color:  rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
     font-size: 20px;
     margin-top: 50px;
 }
@@ -315,8 +318,8 @@ nav {
     list-style: none;
     display: flex;
     justify-content: space-around;
-    background-color: #A0D995;
-    border-radius: 50px;
+    background-color: #42c04d;
+    border-radius: 10px;
 }
 
 .menu-horizontal>li>a {
@@ -324,10 +327,12 @@ nav {
     padding: 15px 20px;
     color: rgb(76, 129, 5);
     text-decoration: none;
+    color: white;
 }
 
 .menu-horizontal>li:hover {
-    background-color: #00ff15;
+    background-color: #57d061;
+    border-radius: 50px;
 }
 
 .menu-vertical {
@@ -335,7 +340,8 @@ nav {
     display: none;
     list-style: none;
     width: 200px;
-    background-color: rgba(0, 255, 98, 0.3);
+    background-color: #57d061;
+    border-radius: 5px;
 }
 
 .menu-horizontal li:hover .menu-vertical {
@@ -343,26 +349,51 @@ nav {
 }
 
 .menu-vertical li:hover {
-    background-color: #66dc70;
+    background-color: #57d061;
 }
 
 .menu-vertical li a {
     display: block;
-    color: green;
+    color: rgb(32, 136, 32);
     padding: auto;
     text-decoration: none;
+    color: black;
 }
-#registrarse{
+
+#registrarse {
     background-image: url(../assests/fondo.avif);
     background-size: cover;
     justify-content: center;
     align-items: center;
 }
-#inicio_sesion{
+
+.formulario {
+    background-color: #f2f2f2;
+    color: black;
+    width: 80%;
+    height: 80%;
+    padding: 30px 15px 15px 30px;
+    border-radius: 40px;
+
+}
+
+.formulario__label {
+    font-size: 15px;
+}
+
+#inicio_sesion {
     background-image: url(../assests/fondo.avif);
     background-size: cover;
 }
-#registrarse main{
+
+.inicio_sesion button{
+    color: #fff;
+    background-color: #57d061;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+#registrarse main {
     align-items: center;
     justify-content: center;
 }
