@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 body {
-    background-color: #ffffff;
+    background-color: #f2f2f2;
     font-family: 'Quicksand', sans-serif;
     ;
 }
@@ -354,8 +354,14 @@ nav {
 #registrarse{
     background-image: url(../assests/fondo.avif);
     background-size: cover;
+    justify-content: center;
+    align-items: center;
 }
 #inicio_sesion{
     background-image: url(../assests/fondo.avif);
     background-size: cover;
+}
+#registrarse main{
+    align-items: center;
+    justify-content: center;
 }
