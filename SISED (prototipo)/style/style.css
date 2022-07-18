@@ -50,6 +50,7 @@ main {
     justify-content: space-between;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .subtitulo_principal {
