@@ -80,6 +80,7 @@ main {
     margin: 0;
     padding: 0;
     width: 100%;
+    font-size: 20px;
 }
 
 .menusito a {
@@ -159,6 +160,7 @@ main {
     margin-bottom: 40px;
     background-color: #57d061;
     border-radius: 20px;    
+    color: #f2f2f2;
 }
 
 .inicio_sesion button {
@@ -323,8 +325,12 @@ nav {
     background-color: #42c04d;
     border-radius: 10px;
     justify-content:space-around ;
-    background-color: #A0D995;
+    border-bottom: #42c04d;
     border-radius: 50px;
+}
+
+.menu-horizontal .desplegable{
+    color: white;
 }
 .menu .lista{
     display: inline-block;
@@ -353,6 +359,7 @@ nav {
     width: 200px;
     background-color: #57d061;
     border-radius: 5px;
+    
 }
 
 .menu-horizontal li:hover .menu-vertical {
@@ -369,6 +376,9 @@ nav {
     padding: auto;
     text-decoration: none;
     color: black;
+}
+.menu-vertical>li>a{
+    color: rgb(255, 255, 255);
 }
 
 #registrarse {
