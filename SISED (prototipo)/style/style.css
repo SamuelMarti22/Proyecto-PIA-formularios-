@@ -10,6 +10,9 @@ header {
     border: black;
 }
 
+.lista-r{
+    float: right;
+}
 
 .titulo_y_logo {
     height: 400px;
@@ -304,7 +307,6 @@ main {
 
 
 nav {
-    max-width: 900px;
     margin: auto;
     background-color:  rgba(255, 255, 255, 0);
     font-size: 20px;
@@ -314,9 +316,15 @@ nav {
 .menu-horizontal {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around ;
     background-color: #A0D995;
     border-radius: 50px;
+}
+.menu .lista{
+    display: inline-block;
+}
+.lista-r{
+    float: left;
 }
 
 .menu-horizontal>li>a {
