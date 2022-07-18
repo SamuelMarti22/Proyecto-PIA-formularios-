@@ -319,15 +319,12 @@ nav {
 .menu-horizontal {
     list-style: none;
     display: flex;
-<<<<<<< HEAD
     justify-content: space-around;
     background-color: #42c04d;
     border-radius: 10px;
-=======
     justify-content:space-around ;
     background-color: #A0D995;
     border-radius: 50px;
->>>>>>> 847dd21db85201ed2453a729aea7526f0ee7d727
 }
 .menu .lista{
     display: inline-block;
