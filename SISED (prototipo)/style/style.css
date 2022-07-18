@@ -11,6 +11,9 @@ header {
     color: white;
 }
 
+.lista-r{
+    float: right;
+}
 
 .titulo_y_logo {
     height: 400px;
@@ -307,7 +310,6 @@ main {
 
 
 nav {
-    max-width: 900px;
     margin: auto;
     background-color: rgba(255, 255, 255, 0);
     font-size: 20px;
@@ -317,9 +319,21 @@ nav {
 .menu-horizontal {
     list-style: none;
     display: flex;
+<<<<<<< HEAD
     justify-content: space-around;
     background-color: #42c04d;
     border-radius: 10px;
+=======
+    justify-content:space-around ;
+    background-color: #A0D995;
+    border-radius: 50px;
+>>>>>>> 847dd21db85201ed2453a729aea7526f0ee7d727
+}
+.menu .lista{
+    display: inline-block;
+}
+.lista-r{
+    float: left;
 }
 
 .menu-horizontal>li>a {
