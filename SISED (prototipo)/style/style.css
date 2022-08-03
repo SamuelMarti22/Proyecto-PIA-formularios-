@@ -310,6 +310,7 @@ main {
 
 }
 
+::placeholder { color: blue; }
 
 nav {
     margin: auto;
