@@ -349,7 +349,7 @@ nav {
 
 .menu-horizontal>li:hover {
     background-color: #57d061;
-    border-radius: 50px;
+    border-radius: 5px;
 }
 
 .menu-vertical {
