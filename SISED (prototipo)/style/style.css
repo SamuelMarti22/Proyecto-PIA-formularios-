@@ -349,7 +349,18 @@ nav {
 .lista-r{
     float: left;
 }
+.menu-horizontal-x>li>a {
+    display: block;
+    padding: 15px 20px;
+    color: rgb(76, 129, 5);
+    text-decoration: none;
+    color: white;
+}
 
+.menu-horizontal-x>li:hover {
+    background-color: #57d061;
+    border-radius: 5px;
+}
 .menu-horizontal>li>a {
     display: block;
     padding: 15px 20px;
@@ -376,7 +387,9 @@ nav {
 .menu-horizontal li:hover .menu-vertical {
     display: block;
 }
-
+.menu-horizontal-x li:hover .menu-vertical {
+    display: block;
+}
 .menu-vertical li:hover {
     background-color: #57d061;
 }
