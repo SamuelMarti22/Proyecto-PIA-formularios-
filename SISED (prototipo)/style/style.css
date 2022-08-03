@@ -323,7 +323,17 @@ nav {
     list-style: none;
     display: flex;
     justify-content: space-around;
-    background-color: #42c04dac;
+    background-color: #42c04d;
+    border-radius: 10px;
+    justify-content:space-around ;
+    border-bottom: #42c04d;
+    border-radius: 50px;
+}
+.menu-horizontal-x {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: hsla(125, 50%, 51%, 0.801);
     border-radius: 10px;
     justify-content:space-around ;
     border-bottom: #42c04d;
