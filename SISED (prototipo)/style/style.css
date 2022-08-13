@@ -88,7 +88,7 @@ main {
     color: white;
     display: block;
     padding: 15px 50px;
-    background-color: #42c04d;
+    background-color: #124d17;
     border-bottom: #A0D995;
 }
 
@@ -107,6 +107,7 @@ main {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-color: #66dc70;
+    color: #000;
 }
 
 .ultimo a:hover {
@@ -114,11 +115,13 @@ main {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: #66dc70;
+    color: #000;
 
 }
 
 .mitad a:hover {
     background-color: #66dc70;
+    color: #000;
 }
 
 .inicio_sesion {
@@ -453,6 +456,13 @@ nav {
     flex-direction: column;
 }
 .animales_boton{
+    margin-top: 15px;
+    width: 300px;
+    height: 30px;
+    background-color: #124d17;
+    border-radius: 20px;
+}
+.animales_boton:hover{
     margin-top: 15px;
     width: 300px;
     height: 300px;
