@@ -427,7 +427,7 @@ nav {
 }
 
 #registrarse {
-    background-image: url(../assests/fondo.avif);
+    background-image: url(../assests/forest2.webp);
     background-size: cover;
     justify-content: center;
     align-items: center;
@@ -443,20 +443,17 @@ nav {
     border: 2px solid black;
 
 }
-
 .formulariob {
     background-color: hsla(0, 0%, 95%, 0.843);
     color: black;
     width: 40%;
-    height: 86%;
+    height: 85%;
     padding: 30px 15px 15px 30px;
     border-radius: 40px;
     border: 2px solid black;
+
 }
 
-.formulariob__label {
-    font-size: 30px;
-}
 
 .formulario__label {
     font-size: 30px;
