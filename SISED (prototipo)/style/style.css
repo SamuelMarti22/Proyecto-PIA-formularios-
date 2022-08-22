@@ -11,7 +11,7 @@ header {
     color: white;
 }
 
-.lista-r{
+.lista-r {
     float: right;
 }
 
@@ -88,7 +88,7 @@ main {
     color: white;
     display: block;
     padding: 15px 50px;
-    background-color: #124d17;
+    background-color: #3e7c17;
     border-bottom: #A0D995;
 }
 
@@ -128,12 +128,16 @@ main {
     justify-content: space-around;
     display: flex;
     flex-direction: column;
-    height: 500px;
+
+    align-items: center;
+
+
     /*todo lo que tenga que ver con letras*/
 }
 
 .inicio_sesion form {
-    height: 500px;
+ 
+
     justify-content: center;
     align-items: center;
     display: flex;
@@ -162,7 +166,8 @@ main {
     /*espacio entre los elementos dentro del formulario*/
     margin-bottom: 40px;
     background-color: #57d061;
-    border-radius: 20px;    
+    border-radius: 20px;
+    border: 2px solid black;
     color: #f2f2f2;
 }
 
@@ -191,7 +196,7 @@ main {
     width: 90%;
     background: transparent;
     border-bottom: 2px solid #035f22;
-    border-right: none;
+   border: solid black;
     color: #fff;
     font-size: 17px;
     outline: none;
@@ -313,7 +318,9 @@ main {
 
 }
 
-::placeholder { color: #f2f2f2; }
+::placeholder {
+    color: #f2f2f2;
+}
 
 nav {
     margin: auto;
@@ -328,30 +335,36 @@ nav {
     justify-content: space-around;
     background-color: #42c04d;
     border-radius: 10px;
-    justify-content:space-around ;
+    justify-content: space-around;
     border-bottom: #42c04d;
     border-radius: 50px;
+    border: 2px solid black;
 }
+
 .menu-horizontal-x {
     list-style: none;
     display: flex;
     justify-content: space-around;
     background-color: hsla(125, 50%, 51%, 0.801);
     border-radius: 10px;
-    justify-content:space-around ;
+    justify-content: space-around;
     border-bottom: #42c04d;
     border-radius: 50px;
+    border: 2px solid black;
 }
 
-.menu-horizontal .desplegable{
+.menu-horizontal .desplegable {
     color: white;
 }
-.menu .lista{
+
+.menu .lista {
     display: inline-block;
 }
-.lista-r{
+
+.lista-r {
     float: left;
 }
+
 .menu-horizontal-x>li>a {
     display: block;
     padding: 15px 20px;
@@ -364,6 +377,7 @@ nav {
     background-color: #57d061;
     border-radius: 5px;
 }
+
 .menu-horizontal>li>a {
     display: block;
     padding: 15px 20px;
@@ -384,15 +398,17 @@ nav {
     width: 200px;
     background-color: #57d061;
     border-radius: 5px;
-    
+
 }
 
 .menu-horizontal li:hover .menu-vertical {
     display: block;
 }
+
 .menu-horizontal-x li:hover .menu-vertical {
     display: block;
 }
+
 .menu-vertical li:hover {
     background-color: #57d061;
 }
@@ -404,7 +420,8 @@ nav {
     text-decoration: none;
     color: black;
 }
-.menu-vertical>li>a{
+
+.menu-vertical>li>a {
     color: rgb(255, 255, 255);
 }
 
@@ -418,10 +435,11 @@ nav {
 .formulario {
     background-color: hsla(0, 0%, 95%, 0.843);
     color: black;
-    width: 80%;
-    height: 80%;
+    width: 40%;
+    height: 50%;
     padding: 30px 15px 15px 30px;
     border-radius: 40px;
+    border:  2px solid black;
 
 }
 
@@ -430,39 +448,51 @@ nav {
 }
 
 #inicio_sesion {
-    background-image: url(../assests/fondo.avif);
-    background-size: cover;
+    background-image: url(../assests/forest2.webp);
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+
 }
 
-.inicio_sesion button{
+.inicio_sesion button {
+
     color: #fff;
     background-color: #57d061;
-    border: solid black 1px;
+    
+
     border-radius: 10px;
+    
 }
 
 #registrarse main {
     align-items: center;
     justify-content: center;
 }
+
 #informacion .menusito {
     width: 300px;
 }
-#informacion main{
+
+#informacion main {
     margin-top: 100px;
 }
-#informacion .menusito{
+
+#informacion .menusito {
     display: flex;
     flex-direction: column;
 }
-.animales_boton{
+
+.animales_boton {
     margin-top: 15px;
     width: 300px;
     height: 30px;
     background-color: #124d17;
     border-radius: 20px;
 }
-.animales_boton:hover{
+
+.animales_boton:hover {
     margin-top: 15px;
     width: 300px;
     height: 300px;
@@ -470,14 +500,16 @@ nav {
     background-size: cover;
     border-radius: 20px;
 }
-.plantas_boton{
+
+.plantas_boton {
     margin-top: 15px;
     width: 300px;
     height: 30px;
     background-color: #124d17;
     border-radius: 20px;
 }
-.plantas_boton:hover{
+
+.plantas_boton:hover {
     margin-top: 10px;
     width: 300px;
     height: 300px;
@@ -485,14 +517,16 @@ nav {
     background-size: cover;
     border-radius: 20px;
 }
-.hongos_boton{
+
+.hongos_boton {
     margin-top: 15px;
     width: 300px;
     height: 30px;
     background-color: #124d17;
     border-radius: 20px;
 }
-.hongos_boton:hover{
+
+.hongos_boton:hover {
     margin-top: 10px;
     margin-bottom: 20px;
     width: 300px;
