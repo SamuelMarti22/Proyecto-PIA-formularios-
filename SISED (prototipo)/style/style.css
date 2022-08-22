@@ -88,7 +88,7 @@ main {
     color: white;
     display: block;
     padding: 15px 50px;
-    background-color: #3e7c17;
+    background-color: #68a94a;
     border-bottom: #A0D995;
 }
 
@@ -106,38 +106,33 @@ main {
 .primero a:hover {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: #66dc70;
-    color: #000;
+    background-color: #C1D5A4;
+    color: #f2f2f2;
 }
 
 .ultimo a:hover {
 
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background-color: #66dc70;
-    color: #000;
+    background-color: #C1D5A4;
+    color: #f2f2f2;
 
 }
 
 .mitad a:hover {
-    background-color: #66dc70;
-    color: #000;
+    background-color: #C1D5A4;
+    color: #f2f2f2;
 }
 
 .inicio_sesion {
     justify-content: space-around;
     display: flex;
     flex-direction: column;
-
     align-items: center;
-
-
     /*todo lo que tenga que ver con letras*/
 }
 
 .inicio_sesion form {
-
-
     justify-content: center;
     align-items: center;
     display: flex;
@@ -148,9 +143,8 @@ main {
     flex-direction: column;
     /*lo que tiene que ver copn la cajita del formulario*/
     width: auto;
-    border: 3px solid rgb(119, 190, 77);
+
     /*todo lo que tenga que ver con letras*/
-    color: #42c04d;
     font-size: 30px;
     color: white;
 }
@@ -165,8 +159,7 @@ main {
 .formulario input {
     /*espacio entre los elementos dentro del formulario*/
     margin-bottom: 40px;
-    background-color: #57d061;
-    border-radius: 20px;
+
     border: 2px solid black;
     color: #f2f2f2;
 }
@@ -319,7 +312,7 @@ main {
 }
 
 ::placeholder {
-    color: #f2f2f2;
+    color: black;
 }
 
 nav {
@@ -333,7 +326,7 @@ nav {
     list-style: none;
     display: flex;
     justify-content: space-around;
-    background-color: #42c04d;
+    background-color: #68a94a;
     border-radius: 10px;
     justify-content: space-around;
     border-bottom: #42c04d;
@@ -465,11 +458,6 @@ nav {
     background-size: 100%;
 }
 
-.inicio_sesion button {
-    color: #fff;
-    background-color: #57d061;
-    border-radius: 10px;
-}
 
 #registrarse main {
     align-items: center;
