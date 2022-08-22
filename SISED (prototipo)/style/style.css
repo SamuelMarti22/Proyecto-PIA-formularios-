@@ -331,7 +331,6 @@ nav {
     justify-content: space-around;
     border-bottom: #42c04d;
     border-radius: 50px;
-    border: 2px solid black;
 }
 
 .menu-horizontal-x {
@@ -368,7 +367,7 @@ nav {
 }
 
 .menu-horizontal-x>li:hover {
-    background-color: #57d061;
+    background-color: #C1D5A4;
     border-radius: 5px;
 }
 
@@ -381,8 +380,9 @@ nav {
 }
 
 .menu-horizontal>li:hover {
-    background-color: #57d061;
+    background-color: #C1D5A4;
     border-radius: 5px;
+    padding: 0px;
 }
 
 .menu-vertical {
@@ -390,7 +390,7 @@ nav {
     display: none;
     list-style: none;
     width: 200px;
-    background-color: #57d061;
+    background-color: #68a94a;
     border-radius: 5px;
 
 }
@@ -404,12 +404,13 @@ nav {
 }
 
 .menu-vertical li:hover {
-    background-color: #57d061;
+    background-color: #C1D5A4;
+    border-radius: 10px;
 }
 
 .menu-vertical li a {
     display: block;
-    color: rgb(32, 136, 32);
+    color: #68a94a;
     padding: auto;
     text-decoration: none;
     color: black;
