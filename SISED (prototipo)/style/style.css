@@ -337,7 +337,7 @@ nav {
     list-style: none;
     display: flex;
     justify-content: space-around;
-    background-color: hsla(125, 50%, 51%, 0.801);
+    background-color: #68a94a;
     border-radius: 10px;
     justify-content: space-around;
     border-bottom: #42c04d;
