@@ -178,10 +178,11 @@ header {
 .formulario__input {
     width: 90%;
     background: transparent;
-    border-bottom: 2px solid #035f22;
+    border-bottom: 5px solid #035f22;
+    border-radius: 5px;
     border: solid black;
-    color: #fff;
-    font-size: 17px;
+    color: black;
+    font-size: 15px;
     outline: none;
     line-height: 45px;
     padding: 0 10px;
@@ -434,7 +435,21 @@ nav {
     padding: 30px 15px 15px 30px;
     border-radius: 40px;
     border: 2px solid black;
+    position: relative;
+}
 
+main .formulariob {
+    display: block;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-bottom: 0;
+    transform: translate(-50%, -50%);
+    margin-top: 480px;
+    font-size: 18px;
 }
 
 
@@ -466,6 +481,7 @@ nav {
     display: flex;
     flex-direction: column;
 }
+
 
 .animales_boton {
     margin-top: 15px;
