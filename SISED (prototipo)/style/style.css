@@ -46,15 +46,6 @@ header {
     margin-top: 60px;
 }
 
-main {
-    width: 70%;
-    height: 100vh;
-    margin-left: 280px;
-    margin-top: 20px;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-}
 
 .subtitulo_principal {
     font-size: 25px;
@@ -125,7 +116,6 @@ main {
 }
 
 .inicio_sesion {
-    justify-content: space-around;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -273,7 +263,7 @@ main {
 }
 
 .formulario__btn:hover {
-    background: #035f22;
+    background: green;
     transition: 1s;
 }
 
