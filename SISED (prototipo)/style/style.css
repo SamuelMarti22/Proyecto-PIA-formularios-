@@ -70,8 +70,10 @@ header {
     list-style: none;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 20%;
     font-size: 20px;
+    position: relative;
+    
 }
 
 .menusito a {
@@ -126,6 +128,8 @@ header {
     justify-content: center;
     align-items: center;
     display: flex;
+    width: 300px;
+    padding: 5px;
 }
 
 .formulario {
