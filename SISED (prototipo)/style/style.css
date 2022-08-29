@@ -3,7 +3,7 @@
 body {
     background-color: #f2f2f2;
     font-family: 'Quicksand', sans-serif;
-    ;
+    background-size: cover;
 }
 
 header {
@@ -424,8 +424,8 @@ nav {
 .formulario {
     background-color: hsla(0, 0%, 95%, 0.843);
     color: black;
-    width: 40%;
-    height: 50%;
+    width: auto;
+    height: auto;
     padding: 30px 15px 15px 30px;
     border-radius: 40px;
     border: 2px solid black;
@@ -434,8 +434,8 @@ nav {
 .formulariob {
     background-color: hsla(0, 0%, 95%, 0.843);
     color: black;
-    width: 40%;
-    height: 85%;
+    width: auto;
+    height: auto;
     padding: 30px 15px 15px 30px;
     border-radius: 40px;
     border: 2px solid black;
