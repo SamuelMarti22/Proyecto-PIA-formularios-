@@ -538,3 +538,13 @@ main .formulariob {
     background-size: cover;
     border-radius: 20px;
 }
+
+main {
+    width: 70%;
+    height: 100vh;
+    margin-left: 280px;
+    margin-top: 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
