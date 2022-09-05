@@ -548,3 +548,74 @@ main {
     display: flex;
     flex-direction: row;
 }
+/* PIE DE PAGINA UWU >///< */
+.Piedepagina{
+width: 100%;
+background-color: rgb(107, 107, 107);
+}
+.Piedepagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.Piedepagina .grupo1 .box figure{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Piedepagina .grupo1 .box figure img{
+    width: 200px;
+    border-radius: 50%;
+   
+}
+.Piedepagina .grupo1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+
+}
+.Piedepagina .grupo1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.Piedepagina .grupo1 .redsocial a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: rgb(48, 47, 47);
+    text-align: center;
+    transition: all 300ms ease;
+}
+.Piedepagina .grupo1 .redsocial:hover{
+color: aqua;
+}
+.Piedepagina .grupo2{
+    background-color: rgb(78, 78, 78);
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.Piedepagina .grupo2 small{
+    font-size: 15px;
+
+}
+@media screen and (max-width:800px){
+    .Piedepagina .grupo1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+
+}
+   
