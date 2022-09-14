@@ -605,6 +605,13 @@ color: aqua;
     font-size: 15px;
 
 }
+.card-body{
+    text-decoration: none;
+}
+
+.col-md-4{
+justify-content: space-around;
+}
 @media screen and (max-width:800px){
     .Piedepagina .grupo1{
         width: 90%;
