@@ -613,18 +613,19 @@ color: aqua;
         padding: 35px 0px;
     }
 }
-#animales *{
-    box-sizing: content-box;
-}
 #animales img{
     border-radius: 5px 0px;
-    width: 450px;
-    height: 350px;
+    width: 350px;
+    height: 250px;
 }
 #animales .tarjeta{
+    width: 750px;
     justify-content: space-around;
     display: flex;
     flex-direction: row;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 #animales .informacion_tarjeta{
     height: 100%;
@@ -636,4 +637,8 @@ color: aqua;
 #animales .text-muted{
     color: red;
     font-size: 50px;
+}
+#animales main .derecha{
+    margin-left: 20px;
+    width: auto;
 }
