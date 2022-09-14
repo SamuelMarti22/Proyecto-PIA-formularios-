@@ -605,12 +605,23 @@ color: aqua;
     font-size: 15px;
 
 }
-.card-body{
-    text-decoration: none;
+.card-text{
+    font-size: 12px;
+    
 }
-
+.img-fluid.rounded-start{
+   height: 200px;
+   width: 350px;
+}
 .col-md-4{
 justify-content: space-around;
+display: cover;
+
+
+}
+.card-body{
+    border-radius: 10px;
+    
 }
 @media screen and (max-width:800px){
     .Piedepagina .grupo1{
