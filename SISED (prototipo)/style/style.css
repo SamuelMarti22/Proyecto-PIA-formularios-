@@ -616,3 +616,6 @@ color: aqua;
 #animales *{
     box-sizing: content-box;
 }
+#animales img{
+    border-radius: 5px 0px;
+}
