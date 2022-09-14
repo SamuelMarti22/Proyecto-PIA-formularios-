@@ -616,7 +616,7 @@ color: aqua;
 #animales img{
     border-radius: 5px 0px;
     width: 350px;
-    height: 250px;
+    height: cover;
 }
 #animales .tarjeta{
     width: 750px;
@@ -628,15 +628,23 @@ color: aqua;
     margin-bottom: 20px;
 }
 #animales .informacion_tarjeta{
+    color: #000;
     height: 100%;
     padding: 20px;
     justify-content: space-around;
     flex-direction: column;
     font-size: 20px;
 }
+#animales .informacion_tarjeta h5{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0%;
+    padding: 0%;
+}
 #animales .text-muted{
+    font-weight: 900; 
     color: red;
-    font-size: 50px;
+    font-size: 35px;
 }
 #animales main .derecha{
     margin-left: 20px;

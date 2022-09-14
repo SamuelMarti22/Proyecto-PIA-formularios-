@@ -15,7 +15,7 @@ export const objetoAnimales = [
     },
     {
         'id': 3,
-        'clasif':'Animalito bonito',
+        'clasif':'Precaución',
         'nombre':'Ñeque (Dasyprocta punctata)',
         'info':'Roedor de tamaño mediano con orejas desnudas pequeñas y cola apenas visible. La coloración es parda amarillenta pálida jaspeada de gris, con diversas tonalidades; los pelos de la grupa son negros con bandas blancas o amarillentas. Flancos y extremidades pardas.',
         'img':'./assests/Fotos_animales/Ñeque.jpg'
