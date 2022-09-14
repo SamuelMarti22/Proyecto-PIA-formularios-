@@ -9,21 +9,56 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul class="menu-horizontal">
-                <li class="lista lista-a"><a href="index.html">Inicio</a></li>
-                <li class="lista"><a href="informacion-de-especies.html">Información de especies</a></li>
-                <li class="lista lista-r">
-                    <a href="#">Inicio de sesión</a>
-                    <ul class="menu-vertical">
-                        <li class="desplegable"><a href="./registrarse.html">Registrarse</a></li>
-                        <li class="desplegable"><a href="./inicio_sesion.html">Ingresar</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <body id="animales">
+        <header>
+            <nav>
+                <ul class="menu-horizontal">
+                    <li class="lista lista-a"><a href="index.html">Inicio</a></li>
+                    <li class="lista"><a href="informacion-de-especies.html">Información de especies</a></li>
+                    <li class="lista lista-r">
+                        <a href="#">Inicio de sesión</a>
+                        <ul class="menu-vertical">
+                            <li class="desplegable"><a href="./registrarse.html">Registrarse</a></li>
+                            <li class="desplegable"><a href="./inicio_sesion.html">Ingresar</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main_animales">
+            <div class="container">
+                <div class="col" id="items"></div>
+                <template id="template-card">
+                    <div class="tarjeta">
+                        <img src="" alt="">
+                        <div class="informacion_tarjeta">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text"></p>
+                            <p class="card-text"><small class="text-muted" style="color: aqua;"></small></p>
+                        </div>
+                    </div>
+                </template>
+            </div>
+            <div class="derecha">
+                <div class="menusito">
+                    <div><a class="animales_boton" href="./animales.html">Fauna</a></div>
+                    <div><a href="./plantas.html" class="plantas_boton">Flora</a></div>
+                    <div><a href="./hongos.html" class="hongos_boton">Hongos</a></div>
+                </div>
+                <div class="indice">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-header">
+                          Featured
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">An item</li>
+                          <li class="list-group-item">A second item</li>
+                          <li class="list-group-item">A third item</li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+        </main>
     <script src="./script/script.js"></script>
 </body>
 </html>
