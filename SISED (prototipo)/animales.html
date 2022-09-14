@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="shortcut icon" href="./assests/icono-circule.png" type="image/x-icon">
     <title>Document</title>
 </head>
@@ -25,14 +27,36 @@
         </nav>
     </header>
     <main>
-        <div class="informacion_principal">
-            <div class="subtitulo_principal">
-                <h1>Trabajando para prevenir los peligros en Santa Elena</h1>
-            </div>
-            <div class="subtitulo1">
-                <h3>A través de este espacio podrá ver las diferentes especies que se encuentran en los bosques de Santa Elena, con el menu a su izquierda podrá buscar específicamente el reino que busca</h3>
-            </div>
-            <div class="imagen"><img src="./assests/image_content_36688116_20201116184458.jpg" alt=""></div>
+        <div class="indice">
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">
+                  Featured
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                  <li class="list-group-item">A third item</li>
+                </ul>
+              </div>
+        </div>
+        <div class="container">
+            <div class="col" id="items"></div>
+            <!--<template>-->
+                <div class="card mb-3" style="max-width: 1000px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="..." class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            <!--</template>-->
         </div>
         <div class="menusito">
             <div><a class="animales_boton" href="./animales.html">Fauna</a></div>
@@ -42,5 +66,7 @@
         
     </main>
     <script src="./script/script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -61,6 +61,7 @@ header {
 
 .informacion_principal {
     display: block;
+    max-width: 170vh;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
@@ -477,10 +478,6 @@ main .formulariob {
     width: 300px;
 }
 
-#informacion main {
-    margin-top: 100px;
-}
-
 #informacion .menusito {
     display: flex;
     flex-direction: column;
@@ -540,10 +537,9 @@ main .formulariob {
 }
 
 main {
-    width: 70%;
-    height: 100vh;
-    margin-left: 280px;
-    margin-top: 20px;
+    width: 80vw;
+    height: auto;
+    padding: 100px;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
