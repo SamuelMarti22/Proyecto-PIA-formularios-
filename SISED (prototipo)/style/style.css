@@ -61,6 +61,7 @@ header {
 
 .informacion_principal {
     display: block;
+    max-width: 170vh;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
@@ -477,10 +478,6 @@ main .formulariob {
     width: 300px;
 }
 
-#informacion main {
-    margin-top: 100px;
-}
-
 #informacion .menusito {
     display: flex;
     flex-direction: column;
@@ -540,10 +537,9 @@ main .formulariob {
 }
 
 main {
-    width: 70%;
-    height: 100vh;
-    margin-left: 280px;
-    margin-top: 20px;
+    width: 80vw;
+    height: auto;
+    padding: 100px;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -608,6 +604,24 @@ color: aqua;
 .Piedepagina .grupo2 small{
     font-size: 15px;
 
+}
+.card-text{
+    font-size: 12px;
+    
+}
+.img-fluid.rounded-start{
+   height: 200px;
+   width: 350px;
+}
+.col-md-4{
+justify-content: space-around;
+display: cover;
+
+
+}
+.card-body{
+    border-radius: 10px;
+    
 }
 @media screen and (max-width:800px){
     .Piedepagina .grupo1{
