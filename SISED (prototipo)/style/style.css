@@ -61,6 +61,7 @@ header {
 
 .informacion_principal {
     display: block;
+    max-width: 170vh;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
@@ -477,10 +478,6 @@ main .formulariob {
     width: 300px;
 }
 
-#informacion main {
-    margin-top: 100px;
-}
-
 #informacion .menusito {
     display: flex;
     flex-direction: column;
@@ -540,10 +537,9 @@ main .formulariob {
 }
 
 main {
-    width: 70%;
-    height: 100vh;
-    margin-left: 280px;
-    margin-top: 20px;
+    width: 80vw;
+    height: auto;
+    padding: 100px;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -616,6 +612,46 @@ color: aqua;
         grid-gap: 30px;
         padding: 35px 0px;
     }
-
 }
-   
+#animales img{
+    border-radius: 5px 0px;
+    width: 350px;
+    height: cover;
+}
+#animales .tarjeta{
+    width: 750px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#animales .informacion_tarjeta{
+    color: #000;
+    height: 100%;
+    padding: 20px;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 20px;
+}
+#animales .informacion_tarjeta h5{
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0%;
+    padding: 0%;
+}
+#animales .text-muted{
+    font-weight: 900; 
+    color: red;
+    font-size: 35px;
+}
+#animales main .derecha{
+    margin-left: 20px;
+    width: auto;
+}
+/* buscador */
+.buscador{
+    border: 3px solid black;
+    border-radius: 3px;
+}
