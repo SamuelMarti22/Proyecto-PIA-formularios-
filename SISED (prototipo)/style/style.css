@@ -586,9 +586,9 @@ background-color: rgba(107, 107, 107, 0.397);
     width: 45px;
     height: 45px;
     line-height: 45px;
-    color: #fff;
+    color: rgb(233, 0, 0);
     margin-right: 10px;
- background-color: #20b80c;
+    background-color: #20b80c;
     text-align: center;
     transition: all 300ms ease;
 }
