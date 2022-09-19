@@ -432,6 +432,7 @@ nav {
     border: 2px solid black;
 
 }
+
 .formulariob {
     background-color: hsla(0, 0%, 95%, 0.843);
     color: black;
@@ -544,43 +545,52 @@ main {
     display: flex;
     flex-direction: row;
 }
+
 /* PIE DE PAGINA UWU >///< */
-.Piedepagina{
-width: 100%;
-background-color: rgba(107, 107, 107, 0.397);
+.Piedepagina {
+    width: 100%;
+    background-color: #20b80c67;
+    border-radius: 5px;
 }
-.Piedepagina .grupo1{
+
+.Piedepagina .grupo1 {
     width: 100%;
     max-width: 1200px;
     margin: auto;
     display: grid;
+    background-color: #27781c;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
     padding: 45px 0px;
 }
-.Piedepagina .grupo1 .box figure{
+
+.Piedepagina .grupo1 .box figure {
     width: 100%;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.Piedepagina .grupo1 .box figure img{
+
+.Piedepagina .grupo1 .box figure img {
     width: 200px;
     border-radius: 50%;
-   
+
 }
-.Piedepagina .grupo1 .box h2{
+
+.Piedepagina .grupo1 .box h2 {
     color: #fff;
     margin-bottom: 25px;
     font-size: 20px;
 
 }
-.Piedepagina .grupo1 .box p{
+
+.Piedepagina .grupo1 .box p {
     color: #efefef;
     margin-bottom: 10px;
 }
-.Piedepagina .grupo1 .redsocial a{
+
+.Piedepagina .grupo1 .redsocial a {
     display: inline-block;
     text-decoration: none;
     width: 45px;
@@ -588,24 +598,30 @@ background-color: rgba(107, 107, 107, 0.397);
     line-height: 45px;
     color: rgb(233, 0, 0);
     margin-right: 10px;
-    background-color: #20b80c;
+
     text-align: center;
     transition: all 300ms ease;
 }
-.Piedepagina .grupo1 .redsocial:hover{
-color: aqua;
+
+.Piedepagina .grupo1 .redsocial:hover {
+    color: aqua;
 }
-.Piedepagina .grupo2{
+
+.Piedepagina .grupo2 {
     background-color: rgb(3, 59, 11);
     padding: 15px 10px;
     text-align: center;
     color: #fff;
+    border-radius: 5px;
+
 }
-.Piedepagina .grupo2 small{
+
+.Piedepagina .grupo2 small {
     font-size: 15px;
 
 }
-div.redsocial {
+
+.div.redsocial {
     z-index: 9999;
     width: 45px;
     text-align: left;
@@ -618,40 +634,46 @@ div.redsocial {
 
 
 
-div.redsocial .facebook {
-    width: 40px;
-    height: 40px;
-    opacity: 1;
+.redsocial .facebook {
+    width: 20px;
+    height: 20px;
+    opacity:1;
     background: #0b78e6;
     border-radius: 100%;
+    
 }
 
-div.redsocial .instagram {
+.redsocial.facebook.facebookuwu{
+    width: 30px;
+
+
+}
+
+.redsocial .instagram {
     width: 40px;
     height: 40px;
     opacity: 1;
     background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, rgba(0, 0, 0, 0) 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, rgba(0, 0, 0, 0)), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
-    ;
     border-radius: 100%;
 }
 
-div.redsocial .twitter {
+.redsocial .twitter {
     width: 40px;
     height: 40px;
     opacity: 1;
-    background: #00ACEC;
+    background-color: #00ACEC;
     border-radius: 100%;
 }
 
-div.redsocial .youtube {
+.redsocial .youtube {
     width: 40px;
     height: 40px;
     opacity: 1;
-    background: #c33;
+    background-color: #c33;
     border-radius: 100%;
 }
 
-div.redsocial .WhatsApp{
+.redsocial .WhatsApp {
     width: 40px;
     height: 40px;
     opacity: 1;
@@ -659,34 +681,38 @@ div.redsocial .WhatsApp{
     border-radius: 100%;
 }
 
-div.redsocial .gmail{
+.redsocial .gmail {
     width: 40px;
     height: 40px;
     opacity: 1;
     background-color: #343D44;
     border-radius: 100%;
 }
-.card-text{
+
+.card-text {
     font-size: 12px;
-    
+
 }
-.img-fluid.rounded-start{
-   height: 200px;
-   width: 350px;
+
+.img-fluid.rounded-start {
+    height: 200px;
+    width: 350px;
 }
-.col-md-4{
-justify-content: space-around;
-display: cover;
+
+.col-md-4 {
+    justify-content: space-around;
+    display: cover;
 
 
 }
 
-.card-body{
+.card-body {
     border-radius: 10px;
-    
+
 }
-@media screen and (max-width:800px){
-    .Piedepagina .grupo1{
+
+@media screen and (max-width:800px) {
+    .Piedepagina .grupo1 {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
@@ -694,4 +720,3 @@ display: cover;
     }
 
 }
-   
