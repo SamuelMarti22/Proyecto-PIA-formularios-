@@ -2,8 +2,8 @@ export const objetoPlantas = [
     {
         'id': 1,
         'clasif':'Peligroso',
-        'nombre':'Puma (Puma concolor)',
-        'info':'El puma es terrestre, pero puede trepar árboles para descansar, ocultar sus presas o esconderse de los perros y de los cazadores. Son solitarios, salvo durante la época de cortejo o en el caso de hembras con sus crías.',
+        'nombre':'Hortensias',
+        'info':'u tronco moteado, su alta y densa copa y sus verdes intensos alegran y dan sombra a márgenes de caminos y avenidas urbanas. El problema es que tanto su polen, que aparece en los primeros meses de la primavera, como la pelusa de sus brotes e incluso los vilanos de sus semillas, son tremendamente alergénicos. Atacan principalmente a la nariz, los ojos y las vías respiratorias.',
         'img':'./assests/Fotos_animales/Puma.jpg'
     },
     {
