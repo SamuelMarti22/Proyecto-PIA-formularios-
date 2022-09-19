@@ -42,7 +42,7 @@ header {
     width: 700px;
     height: 220px;
     font-size: 30px;
-    color: white;
+    color: rgb(3, 31, 4);
     margin-top: 60px;
 }
 
@@ -101,7 +101,7 @@ header {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-color: #C1D5A4;
-    color: #f2f2f2;
+    color: black;
 }
 
 .ultimo a:hover {
@@ -109,13 +109,13 @@ header {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: #C1D5A4;
-    color: #f2f2f2;
+    color: black;
 
 }
 
 .mitad a:hover {
     background-color: #C1D5A4;
-    color: #f2f2f2;
+    color: black;
 }
 
 .inicio_sesion {
