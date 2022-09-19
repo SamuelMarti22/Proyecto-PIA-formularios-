@@ -1,14 +1,14 @@
 export const objetoPlantas = [
     {
         'id': 1,
-        'clasif':'Peligroso',
-        'nombre':'Hortensias',
-        'info':'u tronco moteado, su alta y densa copa y sus verdes intensos alegran y dan sombra a márgenes de caminos y avenidas urbanas. El problema es que tanto su polen, que aparece en los primeros meses de la primavera, como la pelusa de sus brotes e incluso los vilanos de sus semillas, son tremendamente alergénicos. Atacan principalmente a la nariz, los ojos y las vías respiratorias.',
-        'img':'./assests/Fotos_animales/Puma.jpg'
+        'clasif':'Alérgico',
+        'nombre':'Plátano de sombra',
+        'info':'Su tronco moteado, su alta y densa copa y sus verdes intensos alegran y dan sombra a márgenes de caminos y avenidas urbanas. El problema es que tanto su polen, que aparece en los primeros meses de la primavera, como la pelusa de sus brotes e incluso los vilanos de sus semillas, son tremendamente alergénicos. Atacan principalmente a la nariz, los ojos y las vías respiratorias.',
+        'img':'./assests/Fotos_plantas/Platano de sombra.jpg'
     },
     {
         'id': 2,
-        'clasif':'Sano',
+        'clasif':'Tóxico',
         'nombre':'Guagua (Cuniculus paca)',
         'info':'Las guartinajas o guaguas habitan en general cerca de fuentes hídricas, cerca de ríos, lagunas, en ecosistemas de bosques tropicales. Esta especie se caracteriza por poseer hábitos Nocturno y crepusculares. También es una especie generalmente frugívora y muchas ocasiones herbívora.',
         'img':'./assests/Fotos_animales/Guagua.jpg'

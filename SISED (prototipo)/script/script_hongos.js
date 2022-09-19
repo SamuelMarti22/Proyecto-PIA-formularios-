@@ -16,6 +16,8 @@ const loadData = objetoHongos => {
             color ='color: red'
         } else if (clasif =='Sano'){
             color ='color: green'
+        } else if (clasif=='Tóxico'){
+            color='color:black'
         } else {
             color ='color: yellow'
         }
