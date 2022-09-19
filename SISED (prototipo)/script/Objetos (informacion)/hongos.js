@@ -1,17 +1,17 @@
 export const objetoHongos = [
     {
         'id': 1,
-        'clasif':'Peligroso',
-        'nombre':'Puma (Puma concolor)',
-        'info':'El puma es terrestre, pero puede trepar árboles para descansar, ocultar sus presas o esconderse de los perros y de los cazadores. Son solitarios, salvo durante la época de cortejo o en el caso de hembras con sus crías.',
-        'img':'./assests/Fotos_animales/Puma.jpg'
+        'clasif':'Tóxico',
+        'nombre':'Clathrus archeri (dedos del diablo)',
+        'info':'Clathrus archeri, también conocido como «dedos del diablo»,​ «seta calamar» o «estrella roja»,​ es un hongo basidiomiceto de la familia Phallaceae​ australiano o neozelandés, fue descubierto por primera vez en Europa en 1914 en el distrito francés de Saint-Dié-des-Vosges.',
+        'img':'./assests/fotos_hongos/diablo.jpg'
     },
     {
         'id': 2,
-        'clasif':'Sano',
-        'nombre':'Guagua (Cuniculus paca)',
-        'info':'Las guartinajas o guaguas habitan en general cerca de fuentes hídricas, cerca de ríos, lagunas, en ecosistemas de bosques tropicales. Esta especie se caracteriza por poseer hábitos Nocturno y crepusculares. También es una especie generalmente frugívora y muchas ocasiones herbívora.',
-        'img':'./assests/Fotos_animales/Guagua.jpg'
+        'clasif':'Psilocibios',
+        'nombre':'Psilocybe cubensis',
+        'info':'Psilocybe cubensis es el nombre científico de una especie de hongos psilocibios llamados así debido a sus propiedades enteógenas resultado de las diferentes sustancias químicas que poseen, principalmente la psilocina y la psilocibina.',
+        'img':'./assests/fotos_hongos/pysicohongo.jpg'
     },
     {
         'id': 3,
