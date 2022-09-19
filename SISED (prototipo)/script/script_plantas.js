@@ -12,7 +12,7 @@ function SortArray(x, y){
     if (x.nombre > y.nombre) {return 1;}
     return 0;
 }
-var s = objetoAnimales.sort(SortArray);
+var s = objetoPlantas.sort(SortArray);
 console.log(s);
 const loadData = objetoPlantas => {
     objetoPlantas.forEach(animales => {
