@@ -182,10 +182,9 @@ header {
 
 .formulario__input {
     width: 90%;
-    background: transparent;
-    border-bottom: 5px solid #035f22;
     border-radius: 5px;
-    border: solid black;
+    background-color: #f2f2f2;
+    border: 1px solid gray;
     color: black;
     font-size: 15px;
     outline: none;
