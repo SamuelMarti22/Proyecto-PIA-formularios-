@@ -8,7 +8,7 @@ export const objetoAnimales = [
     },
     {
         'id': 2,
-        'clasif':'Sano',
+        'clasif':'No perjudicial',
         'nombre':'Guagua (Cuniculus paca)',
         'info':'Las guartinajas o guaguas habitan en general cerca de fuentes hídricas, cerca de ríos, lagunas, en ecosistemas de bosques tropicales. Esta especie se caracteriza por poseer hábitos Nocturno y crepusculares. También es una especie generalmente frugívora y muchas ocasiones herbívora.',
         'img':'./assests/Fotos_animales/Guagua.jpg'

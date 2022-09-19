@@ -21,7 +21,7 @@ const loadData = objetoHongos => {
         templateCard.querySelector('h5').textContent = nombre
         if (clasif == 'Peligroso'){
             color ='color: red'
-        } else if (clasif =='Sano'){
+        } else if (clasif =='No perjudicial'){
             color ='color: green'
         } else if (clasif=='Tóxico'){
             color='color:black'
