@@ -3,7 +3,7 @@ import { objetoAnimales } from "./Objetos (informacion)/animales.js";
 const items = document.getElementById('items');
 const templateCard = document.getElementById('template-card').content;
 const fragment = document.createDocumentFragment();
-
+//import buscadorAnimales  from "./buscador";
 document.addEventListener('DOMContentLoaded',()=>{
     loadData(objetoAnimales)
 })
@@ -28,3 +28,4 @@ const loadData = objetoAnimales => {
     })
     items.appendChild(fragment)
 }
+//buscadorAnimales("nombre",".card");

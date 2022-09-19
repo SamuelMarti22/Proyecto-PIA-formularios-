@@ -643,7 +643,7 @@ color: aqua;
 }
 #animales .text-muted{
     font-weight: 900; 
-    color: red;
+    color: rgb(0, 255, 85);
     font-size: 35px;
 }
 #animales main .derecha{
