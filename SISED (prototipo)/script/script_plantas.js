@@ -1,14 +1,14 @@
 /* ------------ INFORMACION SOBRE LAS ESPECIES (TARJETAS) ---------------- */
-import { objetoPlantas } from "./Objetos (informacion)/plantas";
+import { objetoPlantas } from "./Objetos (informacion)/plantas.js";
 const items = document.getElementById('items');
 const templateCard = document.getElementById('template-card').content;
 const fragment = document.createDocumentFragment();
 
 document.addEventListener('DOMContentLoaded',()=>{
-    loadData(objetoAnimales)
+    loadData(objetoPlantas)
 })
-const loadData = objetoAnimales => {
-    objetoAnimales.forEach(animales => {
+const loadData = objetoPlantas => {
+    objetoPlantas.forEach(animales => {
         const { id,clasif, nombre, info, img} = animales
         let color = ''
         templateCard.querySelector('h5').textContent = nombre

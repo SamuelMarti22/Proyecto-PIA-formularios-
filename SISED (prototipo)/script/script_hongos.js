@@ -5,10 +5,10 @@ const templateCard = document.getElementById('template-card').content;
 const fragment = document.createDocumentFragment();
 
 document.addEventListener('DOMContentLoaded',()=>{
-    loadData(objetoAnimales)
+    loadData(objetoHongos)
 })
-const loadData = objetoAnimales => {
-    objetoAnimales.forEach(animales => {
+const loadData = objetoHongos => {
+    objetoHongos.forEach(animales => {
         const { id,clasif, nombre, info, img} = animales
         let color = ''
         templateCard.querySelector('h5').textContent = nombre
