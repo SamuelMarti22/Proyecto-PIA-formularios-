@@ -649,6 +649,15 @@ color: aqua;
     margin-left: 20px;
     width: auto;
 }
+.negrilla-roja{
+    color: red;
+    font-size: larger;
+}
+.negrilla-verde{
+    font-size: 30px;
+    color: rgb(3, 31, 4);
+    font-weight:bold;
+} 
 /* buscador */
 .buscador{
     border: 3px solid black;
