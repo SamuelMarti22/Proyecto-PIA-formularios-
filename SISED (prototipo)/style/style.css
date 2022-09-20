@@ -368,7 +368,6 @@ nav {
 .menu-horizontal>li>a {
     display: block;
     padding: 15px 20px;
-    color: rgb(76, 129, 5);
     text-decoration: none;
     color: white;
 }
@@ -377,6 +376,7 @@ nav {
     background-color: #C1D5A4;
     border-radius: 5px;
     padding: 0px;
+    color: black;
 }
 
 .menu-vertical {
@@ -408,6 +408,11 @@ nav {
     padding: auto;
     text-decoration: none;
     color: black;
+}
+
+.menu-horizontal li a:hover{
+    color: black;
+    font-weight: bolder;
 }
 
 .menu-vertical>li>a {
