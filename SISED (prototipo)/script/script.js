@@ -1,3 +1,25 @@
+// ------------ BOTONES (PERDON ISMA :C)--------------
+function change_animales() {
+    document.querySelector(".animales_boton").classList.remove("aumentar_animales");
+}
+
+function change2_animales() {
+document.querySelector(".animales_boton").classList.add("aumentar_animales");
+}
+function change_plantas() {
+    document.querySelector(".plantas_boton").classList.remove("aumentar_plantas");
+}
+
+function change2_plantas() {
+document.querySelector(".plantas_boton").classList.add("aumentar_plantas");
+}
+function change_hongos() {
+    document.querySelector(".hongos_boton").classList.remove("aumentar_hongos");
+}
+
+function change2_hongos() {
+document.querySelector(".hongos_boton").classList.add("aumentar_hongos");
+}
 // --------- GUARDAMOS NUESTRO FORMULARIO E INPUTS EN CONSTANTES ---------------
 const $formulario = document.getElementById("formulario");
 const $inputs = document.querySelectorAll("#formulario input")
