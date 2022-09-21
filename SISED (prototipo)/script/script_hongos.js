@@ -19,11 +19,11 @@ const loadData = objetoHongos => {
         const { id,clasif, nombre, info, img} = animales
         let color = ''
         templateCard.querySelector('h5').textContent = nombre
-        if (clasif == 'Peligroso'){
+        if (clasif == 'Venenoso'){
             color ='color: red'
-        } else if (clasif =='No perjudicial'){
-            color ='color: green'
-        } else if (clasif=='Tóxico'){
+        } else if (clasif =='Tóxico'){
+            color ='color: #182747'
+        } else if (clasif=='Psicoactivo'){
             color='color:black'
         } else {
             color ='color: yellow'
