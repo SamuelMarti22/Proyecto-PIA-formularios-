@@ -674,3 +674,16 @@ color: aqua;
     border: 3px solid black;
     border-radius: 3px;
 }
+
+.titulo-info-santa-elena{
+    color: rgb(255, 0, 0);
+}
+
+.info-santa-elena{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.adv{
+    color: rgb(210, 210, 0);
+}
