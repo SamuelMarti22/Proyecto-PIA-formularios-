@@ -25,7 +25,7 @@
         </nav>
     </header>
     <main class="main_animales">
-        <div class="container">
+        <div class="container" id="listaElementos">
             <div class="col" id="items"></div>
             <template id="template-card">
                 <div class="tarjeta">
@@ -39,7 +39,7 @@
             </template>
         </div>
         <div class="derecha">
-            <div class="buscador" tipe="text">buscador</div>
+            <input type="text" id="buscador" class="buscador" name="buscador">
             <div class="menusito">
                 <div><a class="animales_boton" href="./animales.html" onmouseover="change2_animales()" onmouseout=change_animales()>Fauna</a></div>
                 <div><a href="./plantas.html" class="plantas_boton" onmouseover="change2_plantas()" onmouseout=change_plantas()>Flora</a></div>
@@ -60,6 +60,6 @@
         </div>
     </main>
     <script src="./script/script_animales.js" type="module"></script>
-    <script src="./script/script.js"></script>
+    <script src="./script/buscador/buscador.js"></script>
 </body>
 </html>
