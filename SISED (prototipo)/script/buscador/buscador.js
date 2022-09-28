@@ -1,5 +1,5 @@
 const d = document;
-export  function objetoAnimales(input,selector){
+import  function objetoAnimales(input,selector){
     d.addEventListener("indice",e=>{
         if(e.target.matchest(input)){
             console.log(e.key);
@@ -9,4 +9,5 @@ export  function objetoAnimales(input,selector){
             :el.clasList.add("filter"))
         }
     })
+    console.log(objetoAnimales)
 }
