@@ -687,3 +687,7 @@ color: aqua;
 .adv{
     color: rgb(210, 210, 0);
 }
+
+.filtro{
+    display: none;
+}

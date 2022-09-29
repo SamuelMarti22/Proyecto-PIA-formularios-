@@ -1,4 +1,10 @@
+import { objetoAnimales } from "./Objetos (informacion)/animales.js";
 document.addEventListener('keyup', e =>{
-    e.target.matches("buscador")
-    console.log(e.target.value)
+    if(e.target.matches("#buscador")){
+        document.querySelectorAll(objetoAnimales).forEach(elemento => {
+            elemento.name.toLowerCase().includes(e.target.value.toLowerCase)
+            ?elemento.classList.remove("filtro")
+            :elemento.classList.add("filtro")
+        })
+    }
 }) 
