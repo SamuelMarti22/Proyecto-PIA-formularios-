@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 body {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
     background-color: #f2f2f2;
     font-family: 'Quicksand', sans-serif;
     background-size: cover;
@@ -24,6 +27,7 @@ header {
     border-radius: 50px;
     justify-content: space-around;
     display: inline-flex;
+    
 }
 
 .logo {
@@ -100,7 +104,7 @@ header {
 .primero a:hover {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: #C1D5A4;
+    background-color:#78b35c;
     color: black;
 }
 
@@ -108,13 +112,13 @@ header {
 
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background-color: #C1D5A4;
+    background-color: #78b35c;
     color: black;
 
 }
 
 .mitad a:hover {
-    background-color: #C1D5A4;
+    background-color: #78b35c;
     color: black;
 }
 
@@ -156,7 +160,7 @@ header {
     margin-bottom: 40px;
 
     border: 2px solid black;
-    color: #f2f2f2;
+    color: black;
 }
 
 .inicio_sesion button {
@@ -361,7 +365,7 @@ nav {
 }
 
 .menu-horizontal-x>li:hover {
-    background-color: #C1D5A4;
+    background-color: #000000;
     border-radius: 5px;
 }
 
@@ -373,7 +377,7 @@ nav {
 }
 
 .menu-horizontal>li:hover {
-    background-color: #C1D5A4;
+    background-color:  rgb(163, 209, 102);
     border-radius: 5px;
     padding: 0px;
     color: black;
@@ -556,8 +560,15 @@ main {
 }
 /* PIE DE PAGINA UWU >///< */
 .Piedepagina{
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    
+   
+    
 width: 100%;
-background-color: rgb(107, 107, 107);
+background-color: #568f3c;
 }
 .Piedepagina .grupo1{
     width: 100%;
@@ -570,7 +581,8 @@ background-color: rgb(107, 107, 107);
 }
 .Piedepagina .grupo1 .box figure{
     width: 100%;
-    height: 100px;
+    justify-content: space-around;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -592,21 +604,22 @@ background-color: rgb(107, 107, 107);
 }
 .Piedepagina .grupo1 .redsocial a{
     display: inline-block;
-    text-decoration: none;
     width: 45px;
     height: 45px;
     line-height: 45px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     margin-right: 10px;
-    background-color: rgb(48, 47, 47);
+    
     text-align: center;
     transition: all 300ms ease;
+    border-radius: 9.5px;
 }
 .Piedepagina .grupo1 .redsocial:hover{
 color: aqua;
 }
 .Piedepagina .grupo2{
-    background-color: rgb(78, 78, 78);
+    border-radius: 5px;
+    background-color: #3b6826 ;
     padding: 15px 10px;
     text-align: center;
     color: #fff;
@@ -671,12 +684,15 @@ color: aqua;
 } 
 /* buscador */
 .buscador{
-    border: 3px solid black;
-    border-radius: 3px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-image: url(https://pbs.twimg.com/profile_images/517066608687456257/zb3sBbiU_400x400.jpeg);
+    background-size: cover;
 }
 
 .titulo-info-santa-elena{
-    color: rgb(255, 0, 0);
+
+    color: rgb(81, 255, 0);
 }
 
 .info-santa-elena{
@@ -685,9 +701,44 @@ color: aqua;
 }
 
 .adv{
-    color: rgb(210, 210, 0);
+    color: rgb(255, 0, 0);
+    -webkit-text-stroke: 1px rgb(255, 0, 0);
+    
+    
 }
 
 .filtro{
     display: none;
 }
+/*
+@media(max-width: 1400px) {
+
+    .jelu {
+        width: 1200px
+    }
+
+}
+
+
+@media(max-width: 1200px) {
+
+    .jelu {
+        width: 900px
+    }
+
+}
+
+
+
+@media(max-width: 900px) {
+    .jelu {
+        width: 100%
+    }
+
+    .jelu {
+        width: 100%;
+        display: block;
+    }
+
+
+} */
