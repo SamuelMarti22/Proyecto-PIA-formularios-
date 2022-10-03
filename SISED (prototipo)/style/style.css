@@ -607,12 +607,12 @@ background-color: #568f3c;
     width: 45px;
     height: 45px;
     line-height: 45px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     margin-right: 10px;
-    background-color: #3b6826;
+    
     text-align: center;
     transition: all 300ms ease;
-    border-radius: 5px;
+    border-radius: 9.5px;
 }
 .Piedepagina .grupo1 .redsocial:hover{
 color: aqua;
