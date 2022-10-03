@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 body {
+   
     background-color: #f2f2f2;
     font-family: 'Quicksand', sans-serif;
     background-size: cover;
@@ -24,6 +25,7 @@ header {
     border-radius: 50px;
     justify-content: space-around;
     display: inline-flex;
+    
 }
 
 .logo {
@@ -156,7 +158,7 @@ header {
     margin-bottom: 40px;
 
     border: 2px solid black;
-    color: #f2f2f2;
+    color: black;
 }
 
 .inicio_sesion button {
@@ -361,7 +363,7 @@ nav {
 }
 
 .menu-horizontal-x>li:hover {
-    background-color: #C1D5A4;
+    background-color: #000000;
     border-radius: 5px;
 }
 
@@ -373,7 +375,7 @@ nav {
 }
 
 .menu-horizontal>li:hover {
-    background-color: #C1D5A4;
+    background-color:  rgb(163, 209, 102);
     border-radius: 5px;
     padding: 0px;
     color: black;
@@ -556,8 +558,12 @@ main {
 }
 /* PIE DE PAGINA UWU >///< */
 .Piedepagina{
+    margin: 0;
+    
+   
+    
 width: 100%;
-background-color: rgb(107, 107, 107);
+background-color: #568f3c;
 }
 .Piedepagina .grupo1{
     width: 100%;
@@ -570,7 +576,8 @@ background-color: rgb(107, 107, 107);
 }
 .Piedepagina .grupo1 .box figure{
     width: 100%;
-    height: 100px;
+    justify-content: space-around;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -671,12 +678,15 @@ color: aqua;
 } 
 /* buscador */
 .buscador{
-    border: 3px solid black;
-    border-radius: 3px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-image: url(https://pbs.twimg.com/profile_images/517066608687456257/zb3sBbiU_400x400.jpeg);
+    background-size: cover;
 }
 
 .titulo-info-santa-elena{
-    color: rgb(255, 0, 0);
+
+    color: rgb(81, 255, 0);
 }
 
 .info-santa-elena{
@@ -685,9 +695,44 @@ color: aqua;
 }
 
 .adv{
-    color: rgb(210, 210, 0);
+    color: rgb(255, 0, 0);
+    -webkit-text-stroke: 1px rgb(255, 0, 0);
+    
+    
 }
 
 .filtro{
     display: none;
 }
+/*
+@media(max-width: 1400px) {
+
+    .jelu {
+        width: 1200px
+    }
+
+}
+
+
+@media(max-width: 1200px) {
+
+    .jelu {
+        width: 900px
+    }
+
+}
+
+
+
+@media(max-width: 900px) {
+    .jelu {
+        width: 100%
+    }
+
+    .jelu {
+        width: 100%;
+        display: block;
+    }
+
+
+} */
