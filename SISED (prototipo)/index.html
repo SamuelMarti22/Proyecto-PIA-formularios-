@@ -6,8 +6,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
     <link rel="shortcut icon" href="./assests/icono-circule.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+    <link rel="stylesheet" href="./style/style.css">
     <title>SISED</title>
 </head>
 
@@ -74,7 +75,38 @@
         </div>
     </main>
     </div>
-    <script src="./script/script.js"></script>
+    <div class="carrusel">
+        <div class="carrusel__contenedor">
+            <button aria-label="Anterior" class="carrusel__anterior">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <div class="carrusel__lista">
+                <div class="carrusel__elemento">
+                    <img src="./assests/Fotos_animales/Puma.jpg" alt="">
+                    <p>Puma</p>
+                </div>
+
+                <div class="carrusel__elemento">
+                    <img src="./assests/Fotos_plantas/Platano de sombra.jpg" alt="">
+                    <p>Plátano de sombra</p>
+                </div>
+
+                <div class="carrusel__elemento">
+                    <img src="./assests/fotos_hongos/diablo.jpg" alt="">
+                    <p>Hongo Diablo</p>
+                </div>
+
+                <div class="carrusel__elemento">
+                    <img src="./assests/Fotos_animales/Guagua.jpg" alt="">
+                    <p>Guagua</p>
+                </div>
+            </div>
+            <button aria-label="Siguiente" class="carrusel__siguiente">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+        <div role="tabList" class="carrusel__indicadores"></div>
+    </div>
     <footer class="Piedepagina">
         <div class="grupo1">
             <div class="box">
@@ -105,6 +137,8 @@
         </div>
     </footer>
 </div>
+<script src="./script/script.js"></script>
+<script src="https://kit.fontawesome.com/ac032783fa.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
 </body>
-
 </html>

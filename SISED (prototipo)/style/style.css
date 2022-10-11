@@ -158,9 +158,7 @@ header {
 .formulario input {
     /*espacio entre los elementos dentro del formulario*/
     margin-bottom: 40px;
-
     border: 2px solid black;
-    color: black;
 }
 
 .inicio_sesion button {
@@ -743,4 +741,42 @@ color: aqua;
 
 .indice a{
     text-decoration: none;
+}
+
+#inicio img{
+    width:500px;
+    height: 300px;
+}
+
+/* Carrusel */
+
+.carrusel__contenedor{
+    position: relative;
+    padding: 100px;
+
+}
+
+.carrusel__anterior,
+.carrusel__siguiente{
+    position: absolute;
+    display: block;
+    width:30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align:center;
+    background: blue;
+    color:#fff;
+    opacity:20%;
+
+}
+
+.carrusel__siguiente{
+    right: 20px;
+}
+
+.carrusel__anterior{
+    left:20px;
 }
