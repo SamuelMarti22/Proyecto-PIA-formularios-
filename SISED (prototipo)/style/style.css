@@ -752,8 +752,7 @@ color: aqua;
 
 .carrusel__contenedor{
     position: relative;
-    padding: 100px;
-
+    padding: 0px 100px;
 }
 
 .carrusel__anterior,
@@ -767,10 +766,15 @@ color: aqua;
     cursor: pointer;
     line-height: 30px;
     text-align:center;
-    background: blue;
+    background: green;
     color:#fff;
     opacity:20%;
+    border-radius: 50%;
+}
 
+.carrusel__anterior:hover,
+.carrusel__siguiente:hover{
+    opacity: 100%;
 }
 
 .carrusel__siguiente{
@@ -779,4 +783,29 @@ color: aqua;
 
 .carrusel__anterior{
     left:20px;
+}
+
+.carrusel__lista {
+    overflow: hidden;
+}
+
+.carrusel__elemento{
+    text-align:center;
+}
+
+.carrusel__indicadores .glider-dot{
+    display:block;
+    width:30px;
+    height:4px;
+    background-color: green;
+    opacity: .2;
+    border-radius: 0;
+}
+
+.carrusel__indicadores .glider-dot:hover{
+    opacity: .5;
+}
+
+.carrusel__indicadores .glider-dot.active{
+    opacity:.5;
 }
