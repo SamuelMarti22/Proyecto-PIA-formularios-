@@ -743,7 +743,7 @@ color: aqua;
     text-decoration: none;
 }
 
-#inicio img{
+#inicio .carrusel__elemento img{
     width:500px;
     height: 300px;
 }
