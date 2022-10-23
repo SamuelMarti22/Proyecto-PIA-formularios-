@@ -8,6 +8,7 @@
     <title>Inicio de sesión</title>
     <link rel="stylesheet" href="./style/style.css">
     <link rel="shortcut icon" href="./assests/icono-circule.png" type="image/x-icon">
+    <link rel="stylesheet" href="sweetalert2.min.css">
 </head>
 
 <body id="inicio_sesion">
@@ -27,7 +28,7 @@
         </nav>
     </header>
     <main class="inicio_sesion">
-        <form action="" class="formulario">
+        <form action="" class="formulario" id="formulario">
             <div>
                 <div class="unoporlinea">
                     <label class="formulario__label">Usuario</label>
@@ -39,6 +40,8 @@
             <input class="formulario__btn" type="submit" value="Iniciar Sesión">
         </form>
     </main>
+    <script src="./script/inicio-sesion.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.1/dist/sweetalert2.all.min.js"></script>
 </body>
 
 </html>

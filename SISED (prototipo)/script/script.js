@@ -176,29 +176,31 @@ $formulario.addEventListener("submit", (e) => {
             icono.classList.remove("formulario__grupo--correcto");
         });
 
-        // setTimeout(() => {
-        //     location.reload();
-        // }, 5000);
+        
+
+        setTimeout(() => {
+            window.location.href = 'inicio_sesion.html'
+        }, 3000);
 
     } else {
         document.getElementById("formulario__mensaje").classList.add("formulario__mensaje-activo");
     }
 });
 
-function LeerDatos(){
-    nombre= document.getElementById('nombre').value
-    usuario= document.getElementById('usuario').value
-    contraseña= document.getElementById('password').value
-    correo= document.getElementById('correo').value
-    telefono= document.getElementById('telefono').value
+function LeerDatos() {
+    nombre = document.getElementById('nombre').value
+    usuario = document.getElementById('usuario').value
+    contraseña = document.getElementById('password').value
+    correo = document.getElementById('correo').value
+    telefono = document.getElementById('telefono').value
 
     guardarLocalStorage(nombre, usuario, correo, contraseña, telefono)
 }
 
-function guardarLocalStorage(nombre, usuario, correo, contraseña, telefono){
-    localStorage.setItem('Nombre',nombre)
-    localStorage.setItem('Usuario',usuario)
-    localStorage.setItem('Correo',correo)
-    localStorage.setItem('Contraseña',contraseña)
-    localStorage.setItem('Telefono',telefono)
+function guardarLocalStorage(nombre, usuario, correo, contraseña, telefono) {
+    localStorage.setItem('Nombre', nombre)
+    localStorage.setItem('Usuario', usuario)
+    localStorage.setItem('Correo', correo)
+    localStorage.setItem('Contraseña', contraseña)
+    localStorage.setItem('Telefono', telefono)
 }
