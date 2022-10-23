@@ -1,3 +1,7 @@
+//---- VARIABLES DEL INICIO DE SESION ----
+
+let nombre, usuario, contraseña, correo, telefono
+
 // ------------ BOTONES (PERDON ISMA :C)--------------
 function change_animales() {
     document.querySelector(".animales_boton").classList.remove("aumentar_animales");
@@ -107,7 +111,6 @@ const validarCampo = (expresion, input, campo) => {
         document.querySelector(`#grupo__${campo} i`).classList.add("fa-check-circle");
         document.querySelector(`#grupo__${campo} .formulario__input-error`).classList.remove("formulario__input-error-activo");
         campos[campo] = true;
-        console.log("Funciona");
     } else {
         document.getElementById(`grupo__${campo}`).classList.add("formulario__grupo-incorrecto");
         document.getElementById(`grupo__${campo}`).classList.remove("formulario__grupo-correcto");
@@ -115,7 +118,6 @@ const validarCampo = (expresion, input, campo) => {
         document.querySelector(`#grupo__${campo} i`).classList.remove("fa-check-circle");
         document.querySelector(`#grupo__${campo} .formulario__input-error`).classList.add("formulario__input-error-activo");
         campos[campo] = false;
-        console.log("Funciona");
     }
 }
 
@@ -132,7 +134,6 @@ const validarPassword2 = () => {
         document.querySelector(`#grupo__password2 i`).classList.remove("fa-check-circle");
         document.querySelector(`#grupo__password2 .formulario__input-error`).classList.add("formulario__input-error-activo");
         campos[password] = false;
-        console.log("Funciona");
     } else {
         document.getElementById(`grupo__password2`).classList.remove("formulario__grupo-incorrecto");
         document.getElementById(`grupo__password2`).classList.add("formulario__grupo-correcto");
@@ -140,7 +141,6 @@ const validarPassword2 = () => {
         document.querySelector(`#grupo__password2 i`).classList.add("fa-check-circle");
         document.querySelector(`#grupo__password2 .formulario__input-error`).classList.remove("formulario__input-error-activo");
         campos[password] = true;
-        console.log("Funciona");
     }
 }
 
@@ -153,13 +153,17 @@ $inputs.forEach((input) => {
 
 
 
-// --------- VALIDAMOS TODO NUESTRO FORMULARIO ---------------
+// --------- VALIDAMOS TODO NUESTRO FORMULARIO Y GUARDAMOS LOS DATOS---------------
 $formulario.addEventListener("submit", (e) => {
     e.preventDefault();
+
+    LeerDatos()
 
     const $terminos = document.getElementById("terminos");
     if (campos.usuario && campos.nombre && campos.password && campos.correo && campos.telefono && $terminos.checked) {
         // formulario.reset();
+
+        document.getElementById("formulario__mensaje").classList.remove("formulario__mensaje-activo");
 
         document.getElementById("formulario__mensaje-exito").classList.add("formulario__mensaje-exito-activo");
         setTimeout(() => {
@@ -172,11 +176,29 @@ $formulario.addEventListener("submit", (e) => {
             icono.classList.remove("formulario__grupo--correcto");
         });
 
-        setTimeout(() => {
-            location.reload();
-        }, 5000);
+        // setTimeout(() => {
+        //     location.reload();
+        // }, 5000);
 
     } else {
         document.getElementById("formulario__mensaje").classList.add("formulario__mensaje-activo");
     }
-}); 
+});
+
+function LeerDatos(){
+    nombre= document.getElementById('nombre').value
+    usuario= document.getElementById('usuario').value
+    contraseña= document.getElementById('password').value
+    correo= document.getElementById('correo').value
+    telefono= document.getElementById('telefono').value
+
+    guardarLocalStorage(nombre, usuario, correo, contraseña, telefono)
+}
+
+function guardarLocalStorage(nombre, usuario, correo, contraseña, telefono){
+    localStorage.setItem('Nombre',nombre)
+    localStorage.setItem('Usuario',usuario)
+    localStorage.setItem('Correo',correo)
+    localStorage.setItem('Contraseña',contraseña)
+    localStorage.setItem('Telefono',telefono)
+}
