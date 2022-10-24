@@ -809,3 +809,32 @@ color: aqua;
 .carrusel__indicadores .glider-dot.active{
     opacity:.5;
 }
+
+/* página de reseñas */
+
+#reseñas .comentarios{
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+#reseñas .dejarComentarios{
+    width:75%;
+}
+
+#reseñas .comentarios{
+    width: 100%;
+}
+
+#reseñas .comentariosComunidad{
+    width: 63%;
+}
+
+#reseñas .card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
