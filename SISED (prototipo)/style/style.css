@@ -317,6 +317,7 @@ nav {
     background-color: rgba(255, 255, 255, 0);
     font-size: 20px;
     margin-top: 50px;
+    width: 98vw;
 }
 
 .menu-horizontal {
@@ -682,8 +683,15 @@ color: aqua;
 } 
 /* buscador */
 .buscador{
-    border: 1px solid black;
-    border-radius: 4px;
+    border: 2px solid #3b6826;
+    border-radius: 50px;
+    text-align: center;
+    width: 100%;
+    background-color: #f2f2f2;   
+}
+
+.buscador::placeholder{
+    color: #5c615c;
 }
 
 .titulo-info-santa-elena{
@@ -739,8 +747,26 @@ color: aqua;
 
 } */
 
+.indice{
+    border: 3px solid #5ba738;
+    border-radius: 5px;
+    list-style: none;
+    padding: 0;
+}
+
+.indiceContenido1{
+    background-color: #f2f2f2;
+}
+
+.indiceContenido2{
+    background-color:#B2B2B2;
+}
+
 .indice a{
     text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 25px;
 }
 
 #inicio .carrusel__elemento img{
@@ -837,4 +863,26 @@ color: aqua;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
+}
+
+/* Barra de scroll */
+
+::-webkit-scrollbar{
+    width:15px;
+    border-radius:10px;
+}
+
+::-webkit-scrollbar-track{
+    border: 2px solid #5ba738;
+    box-shadow: inset 0 0 2.5px 2px rgba(0,0,0,0);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(
+        45deg,
+        #2f5c1d,
+        #79ff6c
+    );
+    border-radius: 10px;
 }

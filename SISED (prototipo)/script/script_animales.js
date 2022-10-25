@@ -26,13 +26,13 @@ const loadData = objetoAnimales => {
         } else if (clasif=='Tóxico'){
             color='color:black'
         } else {
-            color ='color: yellow'
+            color ='color: #FFDE00'
         }
         templateCard.querySelector('.text-muted').textContent = clasif
         templateCard.querySelector('.text-muted').setAttribute('style',color)
         templateCard.querySelector('img').setAttribute('src',img)
         templateCard.querySelector('.card-text').textContent = info
-        templateCard.querySelector('.informacion_tarjeta').setAttribute('id', nombre)
+        templateCard.querySelector('.tarjeta').setAttribute('id', nombre)
         const clone = templateCard.cloneNode(true)
         fragment.appendChild(clone)
     })

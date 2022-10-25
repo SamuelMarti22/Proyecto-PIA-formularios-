@@ -26,7 +26,7 @@ const loadData = objetoPlantas => {
         } else if (clasif=='Tóxico'){
             color='color:black'
         } else {
-            color ='color: yellow'
+            color ='color: #FFDE00'
         }
         templateCard.querySelector('.text-muted').textContent = clasif
         templateCard.querySelector('.text-muted').setAttribute('style',color)
