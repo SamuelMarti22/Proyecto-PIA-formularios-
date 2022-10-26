@@ -65,7 +65,7 @@ header {
 
 .informacion_principal {
     display: block;
-    max-width: 170vh;
+    max-width: 70vw;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
@@ -885,4 +885,8 @@ color: aqua;
         #79ff6c
     );
     border-radius: 10px;
+}
+
+.info_sobre_nostros{
+    width:50%;
 }
