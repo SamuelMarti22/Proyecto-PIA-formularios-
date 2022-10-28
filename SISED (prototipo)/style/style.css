@@ -602,16 +602,18 @@ background-color: #568f3c;
     margin-bottom: 10px;
 }
 .Piedepagina .grupo1 .redsocial a{
-    display: inline-block;
+    display: inline-flex;
     width: 45px;
     height: 45px;
     line-height: 45px;
     color: rgb(255, 255, 255);
     margin-right: 10px;
-    
+    align-items: center;
     text-align: center;
     transition: all 300ms ease;
     border-radius: 9.5px;
+    justify-content: center;
+    text-align: center;
 }
 .Piedepagina .grupo1 .redsocial:hover{
 color: aqua;
@@ -889,4 +891,6 @@ color: aqua;
 
 .info_sobre_nosotros{
     width: 70%;
+    text-align: justify;
 }
+
