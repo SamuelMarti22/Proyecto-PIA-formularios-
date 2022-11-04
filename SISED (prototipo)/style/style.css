@@ -105,7 +105,7 @@ header {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-color:#78b35c;
-    color: black;
+    color: #fff;
 }
 
 .ultimo a:hover {
@@ -113,13 +113,13 @@ header {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: #78b35c;
-    color: black;
+    color: #fff;
 
 }
 
 .mitad a:hover {
     background-color: #78b35c;
-    color: black;
+    color: #fff;
 }
 
 .inicio_sesion {
@@ -364,7 +364,7 @@ nav {
 }
 
 .menu-horizontal-x>li:hover {
-    background-color: #000000;
+    background-color:hsl(101, 58%, 39%);
     border-radius: 5px;
 }
 
@@ -379,7 +379,7 @@ nav {
     background-color:  rgb(163, 209, 102);
     border-radius: 5px;
     padding: 0px;
-    color: black;
+    color: #fff;
 }
 
 .menu-vertical {
@@ -410,11 +410,11 @@ nav {
     color: #68a94a;
     padding: auto;
     text-decoration: none;
-    color: black;
+    color: #fff;
 }
 
 .menu-horizontal li a:hover{
-    color: black;
+    color: #fff;
     font-weight: bolder;
 }
 
@@ -423,10 +423,10 @@ nav {
 }
 
 #registrarse {
-    background-image: url(../assests/forest2.webp);
+    background: #fff;
     background-size: cover;
     justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .formulario {
@@ -470,9 +470,10 @@ main .formulariob {
 }
 
 #inicio_sesion {
-    background-image: url(../assests/forest2.webp);
+    background: #fff;
     background-repeat: no-repeat;
     background-size: 100%;
+    text-align: center;
 }
 
 

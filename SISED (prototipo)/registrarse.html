@@ -8,7 +8,16 @@
     <title>Registro</title>
     <link rel="stylesheet" href="./style/style.css">
     <link rel="shortcut icon" href="./assests/icono-circule.png" type="image/x-icon">
+     <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
 </head>
+<style>
+      .btn-primary{
+      background-color: rgba(0,148,44, 0.85) !important;
+      border: none;
+    }
+</style>
 
 <body id="registrarse">
     <header>
@@ -26,11 +35,10 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <!-- FORMULARIOB -->
+    <!-- <main>
+        
         <form action="#" class="formulariob" id="formulario"> 
             
-            <!-- GRUPO DE NOMBRE-->
             <div class="formulario__grupo" id="grupo__nombre">
                 <label class="formulario__label">Nombre y Apellido</label>
                 <div class="formulario__grupo-input">
@@ -42,7 +50,7 @@
                     letras y guión bajo.</p>
             </div>
             
-            <!-- GRUPO DE USUARIO -->
+          
             <div class="formulario__grupo" id="grupo__usuario">
                 <label class="formulario__label">Nombre de usuario</label>
                 <div class="formulario__grupo-input">
@@ -55,7 +63,7 @@
             </div>
 
 
-            <!-- GRUPO DE CONTRASEÑA 1-->
+       
             <div class="formulario__grupo" id="grupo__password">
                 <label class="formulario__label">Contraseña</label>
                 <div class="formulario__grupo-input">
@@ -67,7 +75,6 @@
             </div>
 
 
-            <!-- GRUPO DE CONTRASEÑA 2-->
             <div class="formulario__grupo" id="grupo__password2">
                 <label class="formulario__label">Repetir la contraseña</label>
                 <div class="formulario__grupo-input">
@@ -79,7 +86,7 @@
             </div>
 
 
-            <!-- GRUPO DE EMAIL -->
+      
             <div class="formulario__grupo" id="grupo__correo">
                 <label class="formulario__label">Correo Electronico</label>
                 <div class="formulario__grupo-input">
@@ -91,7 +98,7 @@
                     letras y guión bajo.</p>
             </div>
 
-            <!-- GRUPO DE TELÉFONO -->
+        
             <div class="formulario__grupo" id="grupo__telefono">
                 <label class="formulario__label">Teléfono</label>
                 <div class="formulario__grupo-input">
@@ -103,7 +110,6 @@
             </div>
 
 
-            <!-- GRUPO TERMINOS Y CONDICIONES -->
             <div class="formulario__grupo formulario__grupo-terminos" id="grupo__terminos">
                 <label class="formulario__label">
                     <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
@@ -111,20 +117,60 @@
                 </label>
             </div>
 
-            <!-- MENSAJE DE CAMPOS REQUERIDOS -->
+    
             <div class="formulario__mensaje" id="formulario__mensaje">
                 <p><i class="fas fa-exclamation-circle"> <b>Error:</b> Debes completar todos los campos</i></p>
             </div>
 
 
-            <!-- GRUPO ENVIAR -->
             <div class="formulario__grupo formulario__grupo-btn-enviar">
                 <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">El formulario se envió correctamente
                 </p>
                 <input class="formulario__btn" type="submit" value="Enviar">
             </div>
         </form>
-    </main>
+    </main> -->
+    <main class="form-signin w-100 m-auto" style="justify-content: center; padding: 50px; ">
+        <form>
+          <img class="mb-4" src="./assests/icono-circule.png" alt="" width="100px">
+          <h1 class="h3 mb-3 fw-normal"> Registrate</h1>
+      
+          <div class="form-floating">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Nombre y Apellido">
+            <label for="floatingInput">Nombre completo</label>
+          </div>
+
+          <div class="form-floating">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Nombre usuario" required style="margin-top: 5px;">
+            <label for="floatingInput">Nombre usuario</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required style="margin-top: 5px;">
+            <label for="floatingPassword">Contraseña</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required style="margin-top: 5px;">
+            <label for="floatingPassword">Repetir contraseña</label>
+          </div>
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@ejemplo.edu.co" required style="margin-top: 5px;">
+            <label for="floatingInput">Correo Electronico</label>
+          </div>
+          <div class="form-floating">
+            <input type="telefono" class="form-control" id="floatingInput" placeholder="Phone" style="margin-top: 5px;">
+            <label for="floatingInput">Número Telefonico</label>
+          </div>
+      
+          <div class="checkbox mb-3" style="margin-top: 5px;">
+            <label style="margin-top: 5px;">
+              <input type="checkbox" value="remember-me" required> Acepto Terminos Y Condiciones
+            </label>
+          </div>
+          <button class="w-100 btn btn-lg btn-primary" type="submit" value="enviar" st>Registrarse</button>
+          <p class="mt-5 mb-3 text-muted">&copy; S.I.S.E.D 2012–2023 </p>
+        </form>
+      </main>
+      
     <script src="./script/script.js"></script>
 </body>
 
