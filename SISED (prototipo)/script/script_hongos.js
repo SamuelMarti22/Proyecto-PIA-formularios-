@@ -32,6 +32,7 @@ const loadData = objetoHongos => {
         templateCard.querySelector('.text-muted').setAttribute('style',color)
         templateCard.querySelector('img').setAttribute('src',img)
         templateCard.querySelector('.card-text').textContent = info
+        templateCard.querySelector('.tarjeta').setAttribute('id', nombre)
         const clone = templateCard.cloneNode(true)
         fragment.appendChild(clone)
     })

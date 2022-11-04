@@ -52,8 +52,8 @@ window.addEventListener('load', function () {
 }
 )
 // --------- GUARDAMOS NUESTRO FORMULARIO E INPUTS EN CONSTANTES ---------------
-const $formulario = document.getElementById("formulario");
-const $inputs = document.querySelectorAll("#formulario input")
+const $formulario = document.getElementById("formu");
+const $inputs = document.querySelectorAll("#formu input")
 
 
 // --------- OBJETO CON NUESTRAS EXPRESIONES REGULARES ---------------
@@ -159,6 +159,10 @@ $formulario.addEventListener("submit", (e) => {
 
     LeerDatos()
 
+    setTimeout(() => {
+        window.location.href = 'inicio_sesion.html'
+    }, 3000);
+
     const $terminos = document.getElementById("terminos");
     if (campos.usuario && campos.nombre && campos.password && campos.correo && campos.telefono && $terminos.checked) {
         // formulario.reset();
@@ -175,12 +179,6 @@ $formulario.addEventListener("submit", (e) => {
         document.querySelectorAll(".formulario__grupo--correcto").forEach((icono) => {
             icono.classList.remove("formulario__grupo--correcto");
         });
-
-        
-
-        setTimeout(() => {
-            window.location.href = 'inicio_sesion.html'
-        }, 3000);
 
     } else {
         document.getElementById("formulario__mensaje").classList.add("formulario__mensaje-activo");

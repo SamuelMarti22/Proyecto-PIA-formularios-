@@ -1,6 +1,6 @@
 let correo, contraseña, usuario;
 
-let formulario = document.getElementById('formulario')
+let formulario = document.getElementById('formu')
 
 formulario.addEventListener('submit', (e) => {
     e.preventDefault();
