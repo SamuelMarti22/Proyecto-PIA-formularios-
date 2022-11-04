@@ -602,6 +602,11 @@ background-color: #568f3c;
     color: #efefef;
     margin-bottom: 10px;
 }
+.redsocial{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
 .Piedepagina .grupo1 .redsocial a{
     display: inline-flex;
     width: 45px;
@@ -894,4 +899,3 @@ color: aqua;
     width: 70%;
     text-align: justify;
 }
-
