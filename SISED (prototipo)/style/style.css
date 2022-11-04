@@ -847,11 +847,18 @@ color: aqua;
 /* página de reseñas */
 
 #reseñas .comentarios{
+    margin-top: 120px;
+    margin-bottom: 120px;
     width: 100%;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
+}
+
+#reseñas .btn{
+    background-color:rgba(0,148,44, 0.85);
+    border: transparent;
 }
 
 #reseñas .dejarComentarios{
