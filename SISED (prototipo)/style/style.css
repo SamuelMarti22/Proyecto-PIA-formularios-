@@ -27,8 +27,6 @@ header {
     border-radius: 50px;
     justify-content: space-around;
     display: inline-flex;
-    filter: brightness(70%);
-    filter: contrast(100%);
     text-shadow: 1000px #000;
 }
 
