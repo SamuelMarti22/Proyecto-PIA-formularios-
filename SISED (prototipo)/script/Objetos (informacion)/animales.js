@@ -33,12 +33,5 @@ export const objetoAnimales = [
         'nombre':'Barranquero (Momotus aequatorialis)',
         'info':'Tiene una cabeza voluminosa, casi todo su cuerpo es de color verde con alas y cola azules, en su rostro tiene máscara negra y una corona azul brillante con centro negro, su pico es largo, grueso y decurvado. Suelen ser diurnos, y hacen sus madrigueras en la tierra. No suponen ningun riesgo ni peligro, por lo que lo mejor es no hacerles daño ni asustarlos.',
         'img':'./assests/Fotos_animales/Barranquero.jpg'
-    },
-    {
-        'id': 6,
-        'clasif':'No perjudicial',
-        'nombre':'Barranquero (Momotus aequatorialis)',
-        'info':'Se caracterizan por poseer un caparazón dorsal formado por placas yuxtapuestas, ordenadas por lo general en filas transversales, con cola bastante larga y extremidades cortas. No representan daño al ser humano, por el contrario, lo evitan y se hacen bolita cuando se sienten amenazados, es mejor no molestarlos',
-        'img':'./assests/Fotos_animales/armadillo.webp'
-    },
+    }
 ]
