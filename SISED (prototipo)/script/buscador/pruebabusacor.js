@@ -12,3 +12,20 @@ document.addEventListener("keyup", e=>{
         })
     }
 })
+document.addEventListener("keyup", e=>{
+    if(e.target.matches("#buscador")){
+        document.querySelectorAll("#items").forEach(animal =>{
+            document.querySelectorAll('.cosito').forEach(nombre =>{
+                let nombreAnimal = nombre.querySelector('.card-title')
+                if(nombreAnimal.textContent.toLowerCase().includes(e.target.value.toLowerCase())){
+                    nombre.classList.remove("filtro") 
+                nombre.classList.add("tarjeta")
+                }
+                else{
+                    nombre.classList.add("filtro")
+                    nombre.classList.remove("tarjeta")
+                }   
+            })
+        })
+    }
+})
